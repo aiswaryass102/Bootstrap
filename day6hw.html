@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bakery Feedback Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title text-center mb-4">Online Bakery Feedback</h4>
+
+                    <form>
+                       
+                        <div class="mb-3">
+                            <label class="form-label">Customer Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+
+                       
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+
+                       
+                        <div class="mb-3">
+                            <label class="form-label">Type of Order</label>
+                            <select class="form-select">
+                                <option selected disabled>Select order type</option>
+                                <option>Cake</option>
+                                <option>Cookies</option>
+                                <option>Pastries</option>
+                            </select>
+                        </div>
+
+                       
+                        <div class="mb-3">
+                            <label class="form-label d-block">Preferred Contact Method</label>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="contactMethod" id="emailContact">
+                                <label class="form-check-label" for="emailContact">Email</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="contactMethod" id="phoneContact">
+                                <label class="form-check-label" for="phoneContact">Phone</label>
+                            </div>
+                        </div>
+
+                    
+                        <div class="mb-3">
+                            <label class="form-label d-block">Satisfaction Level</label>
+
+                            <div class="d-flex flex-wrap gap-2">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r1">
+                                    <label class="form-check-label" for="r1">1</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r2">
+                                    <label class="form-check-label" for="r2">2</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r3">
+                                    <label class="form-check-label" for="r3">3</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r4">
+                                    <label class="form-check-label" for="r4">4</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r5">
+                                    <label class="form-check-label" for="r5">5</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r6">
+                                    <label class="form-check-label" for="r6">6</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r7">
+                                    <label class="form-check-label" for="r7">7</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r8">
+                                    <label class="form-check-label" for="r8">8</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r9">
+                                    <label class="form-check-label" for="r9">9</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="rating" id="r10">
+                                    <label class="form-check-label" for="r10">10</label>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <div class="mb-4">
+                            <label class="form-label">Your Feedback</label>
+                            <textarea class="form-control" rows="4" placeholder="Share your experience with us"></textarea>
+                        </div>
+
+                       
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">
+                                Submit 
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
