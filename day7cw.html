@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+</head>
+<body>
+    <div class="container ">
+
+  <!-- Carousel -->
+  <div id="travelCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1603477849227-705c424d1d80?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJvcGljYWwlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" alt="Beach">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+          <h3>Relax at Beautiful Beaches</h3>
+          <p>Enjoy summer vibes with exclusive beach packages.</p>
+          <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#bookModal">
+            Book Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=pexels-pixabay-417173.jpg&fm=jpg" class="d-block w-100" alt="Mountain">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+          <h3>Mountain Adventures</h3>
+          <p>Explore breathtaking mountain destinations.</p>
+          <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#bookModal">
+            Book Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/542727462/photo/houston-texas-skyline.jpg?s=612x612&w=0&k=20&c=ldhxhUFIIaST-o064dsyyzMSV76Eqt0fpjMJUWTP0Is=" class="d-block w-100" alt="City">
+        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
+          <h3>Exciting City Tours</h3>
+          <p>Discover vibrant cities around the world.</p>
+          <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#bookModal">
+            Book Now
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#travelCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#travelCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal " id="bookModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Booking Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>✔ Special discounts available</p>
+        <p>✔ Comfortable travel & accommodation</p>
+        <p>✔ 24/7 customer support</p>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
